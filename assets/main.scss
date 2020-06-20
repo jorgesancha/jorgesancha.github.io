@@ -1,0 +1,42 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600&display=swap');
+
+html, button, input, select, textarea, p,
+    .pure-g [class *= "pure-u"] {
+  font-family: 'IBM Plex Mono', monospace, 'Courier New';
+  font-weight: 400;
+}
+
+body {
+  border-top:solid 2px ;
+}
+
+header, .content, footer {
+  max-width: 960px;
+  margin:auto;
+  padding:0 2rem;
+}
+
+header {
+  padding:2rem 0;
+  margin:0 auto 2rem;
+}
+
+nav {
+  text-align: center;
+}
+
+footer {
+  color: #999;
+  margin: 3rem auto;
+  padding:2rem 0;
+  text-align: center;
+}
+
+.btn-link {
+  font-weight: 700;
+  text-decoration: underline;
+}
